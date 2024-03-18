@@ -150,6 +150,20 @@ export default function Home() {
         maxHeight={1000}
         drawShadow={false}
         mobileScrollSupport
+        className="book"
+        style={{}}
+        startPage={0}
+        flippingTime={500}
+        startZIndex={0}
+        maxShadowOpacity={1}
+        showCover={false}
+        clickEventForward={false}
+        useMouseEvents={false}
+        swipeDistance={30}
+        showPageCorners={false}
+        disableFlipByClick={false}
+        usePortrait
+        autoSize
       >
         <div className="book-page ">
           <Image src={Page0} alt="Page #1" />
