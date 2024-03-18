@@ -139,7 +139,7 @@ const GIFs = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex">
+    <main className="min-h-screen flex justify-center align-center">
       <HTMLFlipBook
         width={704}
         height={1000}
