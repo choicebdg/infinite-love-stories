@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/lustrum-ebook",
   output: "export",
+  basePath: "/books/infinite-love-stories",
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
