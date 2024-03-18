@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/books/infinite-love-stories",
+  basePath: "/infinite-love-stories",
   reactStrictMode: true,
   images: {
     unoptimized: true,
