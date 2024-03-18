@@ -157,11 +157,11 @@ export default function Home() {
         startZIndex={0}
         maxShadowOpacity={1}
         showCover={false}
-        clickEventForward={false}
-        useMouseEvents={false}
         swipeDistance={30}
         showPageCorners={false}
         disableFlipByClick={false}
+        clickEventForward
+        useMouseEvents
         usePortrait
         autoSize
       >
