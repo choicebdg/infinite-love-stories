@@ -148,7 +148,7 @@ export default function Home() {
           mobileScrollSupport
           className="book mx-auto"
           style={{}}
-          startPage={3}
+          startPage={0}
           flippingTime={500}
           startZIndex={0}
           maxShadowOpacity={0}
