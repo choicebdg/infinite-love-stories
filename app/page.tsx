@@ -132,424 +132,421 @@ import Page125 from "./_books/125.jpg";
 import Page126 from "./_books/126.jpg";
 import Page127 from "./_books/127.jpg";
 
-const GIFs = [
-  13, 15, 21, 25, 29, 31, 34, 39, 48, 53, 62, 71, 77, 80, 86, 90, 95, 98, 101,
-  105, 107, 109, 116,
-];
-
 export default function Home() {
   return (
-    <main className="min-h-screen flex justify-center align-center">
-      <HTMLFlipBook
-        width={704}
-        height={1000}
-        size="stretch"
-        minWidth={315}
-        maxWidth={1000}
-        minHeight={400}
-        maxHeight={1000}
-        drawShadow={false}
-        mobileScrollSupport
-        className="book"
-        style={{}}
-        startPage={0}
-        flippingTime={500}
-        startZIndex={0}
-        maxShadowOpacity={1}
-        showCover={false}
-        swipeDistance={30}
-        showPageCorners={false}
-        disableFlipByClick={false}
-        clickEventForward
-        useMouseEvents
-        usePortrait
-        autoSize
-      >
-        <div className="book-page ">
-          <Image priority src={Page0} alt="Page #1" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page1} alt="Page #2" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page2} alt="Page #3" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page3} alt="Page #4" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page4} alt="Page #5" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page5} alt="Page #6" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page6} alt="Page #7" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page7} alt="Page #8" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page8} alt="Page #9" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page9} alt="Page #10" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page10} alt="Page #11" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page11} alt="Page #12" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page12} alt="Page #13" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page13} alt="Page #14" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page14} alt="Page #15" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page15} alt="Page #16" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page16} alt="Page #17" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page17} alt="Page #18" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page18} alt="Page #19" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page19} alt="Page #20" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page20} alt="Page #21" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page21} alt="Page #22" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page22} alt="Page #23" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page23} alt="Page #24" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page24} alt="Page #25" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page25} alt="Page #26" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page26} alt="Page #27" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page27} alt="Page #28" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page28} alt="Page #29" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page29} alt="Page #30" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page30} alt="Page #31" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page31} alt="Page #32" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page32} alt="Page #33" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page33} alt="Page #34" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page34} alt="Page #35" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page35} alt="Page #36" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page36} alt="Page #37" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page37} alt="Page #38" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page38} alt="Page #39" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page39} alt="Page #40" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page40} alt="Page #41" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page41} alt="Page #42" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page42} alt="Page #43" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page43} alt="Page #44" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page44} alt="Page #45" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page45} alt="Page #46" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page46} alt="Page #47" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page47} alt="Page #48" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page48} alt="Page #49" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page49} alt="Page #50" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page50} alt="Page #51" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page51} alt="Page #52" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page52} alt="Page #53" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page53} alt="Page #54" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page54} alt="Page #55" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page55} alt="Page #56" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page56} alt="Page #57" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page57} alt="Page #58" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page58} alt="Page #59" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page59} alt="Page #60" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page60} alt="Page #61" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page61} alt="Page #62" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page62} alt="Page #63" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page63} alt="Page #64" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page64} alt="Page #65" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page65} alt="Page #66" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page66} alt="Page #67" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page67} alt="Page #68" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page68} alt="Page #69" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page69} alt="Page #70" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page70} alt="Page #71" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page71} alt="Page #72" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page72} alt="Page #73" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page73} alt="Page #74" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page74} alt="Page #75" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page75} alt="Page #76" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page76} alt="Page #77" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page77} alt="Page #78" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page78} alt="Page #79" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page79} alt="Page #80" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page80} alt="Page #81" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page81} alt="Page #82" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page82} alt="Page #83" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page83} alt="Page #84" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page84} alt="Page #85" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page85} alt="Page #86" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page86} alt="Page #87" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page87} alt="Page #88" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page88} alt="Page #89" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page89} alt="Page #90" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page90} alt="Page #91" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page91} alt="Page #92" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page92} alt="Page #93" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page93} alt="Page #94" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page94} alt="Page #95" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page95} alt="Page #96" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page96} alt="Page #97" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page97} alt="Page #98" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page98} alt="Page #99" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page99} alt="Page #100" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page100} alt="Page #101" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page101} alt="Page #102" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page102} alt="Page #103" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page103} alt="Page #104" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page104} alt="Page #105" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page105} alt="Page #106" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page106} alt="Page #107" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page107} alt="Page #108" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page108} alt="Page #109" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page109} alt="Page #110" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page110} alt="Page #111" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page111} alt="Page #112" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page112} alt="Page #113" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page113} alt="Page #114" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page114} alt="Page #115" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page115} alt="Page #116" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page116} alt="Page #117" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page117} alt="Page #118" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page118} alt="Page #119" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page119} alt="Page #120" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page120} alt="Page #121" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page121} alt="Page #122" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page122} alt="Page #123" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page123} alt="Page #124" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page124} alt="Page #125" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page125} alt="Page #126" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page126} alt="Page #127" />
-        </div>
-        <div className="book-page">
-          <Image priority src={Page127} alt="Page #128" />
-        </div>
-      </HTMLFlipBook>
+    <main className="min-h-screen p-3 md:p-6">
+      <div className="book-container bg-sky-50 p-2 md:p-4">
+        <HTMLFlipBook
+          width={704}
+          height={1000}
+          size="stretch"
+          minWidth={200}
+          maxWidth={600}
+          minHeight={400}
+          maxHeight={1000}
+          drawShadow
+          mobileScrollSupport
+          className="book mx-auto"
+          style={{}}
+          startPage={3}
+          flippingTime={500}
+          startZIndex={0}
+          maxShadowOpacity={0}
+          swipeDistance={30}
+          showPageCorners={false}
+          disableFlipByClick={false}
+          clickEventForward
+          useMouseEvents
+          usePortrait
+          autoSize
+          showCover
+        >
+          <div className="book-page">
+            <Image priority src={Page0} alt="Page #1" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page1} alt="Page #2" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page2} alt="Page #3" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page3} alt="Page #4" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page4} alt="Page #5" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page5} alt="Page #6" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page6} alt="Page #7" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page7} alt="Page #8" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page8} alt="Page #9" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page9} alt="Page #10" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page10} alt="Page #11" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page11} alt="Page #12" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page12} alt="Page #13" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page13} alt="Page #14" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page14} alt="Page #15" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page15} alt="Page #16" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page16} alt="Page #17" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page17} alt="Page #18" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page18} alt="Page #19" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page19} alt="Page #20" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page20} alt="Page #21" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page21} alt="Page #22" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page22} alt="Page #23" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page23} alt="Page #24" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page24} alt="Page #25" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page25} alt="Page #26" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page26} alt="Page #27" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page27} alt="Page #28" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page28} alt="Page #29" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page29} alt="Page #30" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page30} alt="Page #31" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page31} alt="Page #32" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page32} alt="Page #33" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page33} alt="Page #34" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page34} alt="Page #35" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page35} alt="Page #36" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page36} alt="Page #37" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page37} alt="Page #38" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page38} alt="Page #39" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page39} alt="Page #40" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page40} alt="Page #41" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page41} alt="Page #42" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page42} alt="Page #43" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page43} alt="Page #44" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page44} alt="Page #45" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page45} alt="Page #46" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page46} alt="Page #47" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page47} alt="Page #48" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page48} alt="Page #49" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page49} alt="Page #50" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page50} alt="Page #51" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page51} alt="Page #52" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page52} alt="Page #53" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page53} alt="Page #54" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page54} alt="Page #55" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page55} alt="Page #56" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page56} alt="Page #57" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page57} alt="Page #58" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page58} alt="Page #59" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page59} alt="Page #60" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page60} alt="Page #61" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page61} alt="Page #62" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page62} alt="Page #63" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page63} alt="Page #64" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page64} alt="Page #65" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page65} alt="Page #66" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page66} alt="Page #67" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page67} alt="Page #68" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page68} alt="Page #69" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page69} alt="Page #70" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page70} alt="Page #71" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page71} alt="Page #72" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page72} alt="Page #73" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page73} alt="Page #74" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page74} alt="Page #75" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page75} alt="Page #76" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page76} alt="Page #77" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page77} alt="Page #78" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page78} alt="Page #79" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page79} alt="Page #80" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page80} alt="Page #81" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page81} alt="Page #82" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page82} alt="Page #83" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page83} alt="Page #84" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page84} alt="Page #85" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page85} alt="Page #86" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page86} alt="Page #87" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page87} alt="Page #88" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page88} alt="Page #89" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page89} alt="Page #90" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page90} alt="Page #91" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page91} alt="Page #92" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page92} alt="Page #93" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page93} alt="Page #94" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page94} alt="Page #95" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page95} alt="Page #96" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page96} alt="Page #97" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page97} alt="Page #98" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page98} alt="Page #99" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page99} alt="Page #100" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page100} alt="Page #101" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page101} alt="Page #102" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page102} alt="Page #103" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page103} alt="Page #104" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page104} alt="Page #105" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page105} alt="Page #106" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page106} alt="Page #107" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page107} alt="Page #108" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page108} alt="Page #109" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page109} alt="Page #110" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page110} alt="Page #111" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page111} alt="Page #112" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page112} alt="Page #113" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page113} alt="Page #114" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page114} alt="Page #115" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page115} alt="Page #116" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page116} alt="Page #117" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page117} alt="Page #118" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page118} alt="Page #119" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page119} alt="Page #120" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page120} alt="Page #121" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page121} alt="Page #122" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page122} alt="Page #123" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page123} alt="Page #124" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page124} alt="Page #125" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page125} alt="Page #126" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page126} alt="Page #127" />
+          </div>
+          <div className="book-page">
+            <Image priority src={Page127} alt="Page #128" />
+          </div>
+        </HTMLFlipBook>
+      </div>
     </main>
   );
 }
