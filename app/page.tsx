@@ -561,7 +561,7 @@ export default function Home() {
         </HTMLFlipBook>
         <div className="w-100 flex items-center justify-center gap-1 pt-2">
           <button
-            className="bg-[#62A4D8] hover:bg-[#62A4D8]/[.9] flex items-center gap-1 py-1 pr-3 disabled:bg-[#62A4D8] disabled:opacity-20 disabled:cursor-not-allowed"
+            className="text-sm bg-[#62A4D8] hover:bg-[#62A4D8]/[.9] flex items-center gap-1 py-1 pr-1 sm:pr-3 disabled:bg-[#62A4D8] disabled:opacity-20 disabled:cursor-not-allowed"
             onClick={() => {
               // @ts-ignore
               book.current?.pageFlip().flipPrev();
@@ -574,7 +574,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-5 h-5"
             >
               <path
                 strokeLinecap="round"
@@ -582,10 +582,10 @@ export default function Home() {
                 d="M15.75 19.5 8.25 12l7.5-7.5"
               />
             </svg>
-            <span>Sebelumnya</span>
+            <span className="hidden sm:block">Sebelumnya</span>
           </button>
           <button
-            className="bg-[#62A4D8] hover:bg-[#62A4D8]/[.9] flex items-center gap-2 px-2 py-1"
+            className="text-sm bg-[#62A4D8] hover:bg-[#62A4D8]/[.9] flex items-center gap-2 px-2 py-1"
             onClick={() => {
               // @ts-ignore
               // book.current?.pageFlip().turnToPage(127);
@@ -597,7 +597,7 @@ export default function Home() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-5 h-5"
             >
               <path
                 strokeLinecap="round"
@@ -608,21 +608,21 @@ export default function Home() {
             <span>Download E-Book</span>
           </button>
           <button
-            className="bg-[#62A4D8] hover:bg-[#62A4D8]/[.9] flex items-center gap-1 py-1 pl-3 disabled:bg-[#62A4D8] disabled:opacity-20 disabled:cursor-not-allowed"
+            className="text-sm bg-[#62A4D8] hover:bg-[#62A4D8]/[.9] flex items-center gap-1 py-1 pl-1 sm:pl-3 disabled:bg-[#62A4D8] disabled:opacity-20 disabled:cursor-not-allowed"
             onClick={() => {
               // @ts-ignore
               book.current?.pageFlip().flipNext();
             }}
             disabled={isLast}
           >
-            <span>Selanjutnya</span>
+            <span className="hidden sm:block">Selanjutnya</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-5 h-5"
             >
               <path
                 strokeLinecap="round"
