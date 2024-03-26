@@ -129,7 +129,7 @@ import Page121 from "./_books/121.jpg";
 import Page122 from "./_books/122.jpg";
 import Page123 from "./_books/123.jpg";
 import Page124 from "./_books/124.jpg";
-import Page125 from "./_books/125.jpg";
+import Page125 from "./_books/125.gif";
 import Page126 from "./_books/126.jpg";
 import Page127 from "./_books/127.jpg";
 
