@@ -175,388 +175,388 @@ export default function Home() {
           showCover
         >
           <div className="book-page">
-            <Image priority quality={60} src={Page0} alt="Page #1" />
+            <Image priority src={Page0} alt="Page #1" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page1} alt="Page #2" />
+            <Image priority src={Page1} alt="Page #2" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page2} alt="Page #3" />
+            <Image priority src={Page2} alt="Page #3" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page3} alt="Page #4" />
+            <Image priority src={Page3} alt="Page #4" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page4} alt="Page #5" />
+            <Image priority src={Page4} alt="Page #5" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page5} alt="Page #6" />
+            <Image priority src={Page5} alt="Page #6" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page6} alt="Page #7" />
+            <Image priority src={Page6} alt="Page #7" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page7} alt="Page #8" />
+            <Image priority src={Page7} alt="Page #8" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page8} alt="Page #9" />
+            <Image priority src={Page8} alt="Page #9" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page9} alt="Page #10" />
+            <Image priority src={Page9} alt="Page #10" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page10} alt="Page #11" />
+            <Image priority src={Page10} alt="Page #11" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page11} alt="Page #12" />
+            <Image priority src={Page11} alt="Page #12" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page12} alt="Page #13" />
+            <Image priority src={Page12} alt="Page #13" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page13} alt="Page #14" />
+            <Image priority src={Page13} alt="Page #14" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page14} alt="Page #15" />
+            <Image priority src={Page14} alt="Page #15" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page15} alt="Page #16" />
+            <Image priority src={Page15} alt="Page #16" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page16} alt="Page #17" />
+            <Image priority src={Page16} alt="Page #17" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page17} alt="Page #18" />
+            <Image priority src={Page17} alt="Page #18" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page18} alt="Page #19" />
+            <Image priority src={Page18} alt="Page #19" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page19} alt="Page #20" />
+            <Image priority src={Page19} alt="Page #20" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page20} alt="Page #21" />
+            <Image priority src={Page20} alt="Page #21" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page21} alt="Page #22" />
+            <Image priority src={Page21} alt="Page #22" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page22} alt="Page #23" />
+            <Image priority src={Page22} alt="Page #23" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page23} alt="Page #24" />
+            <Image priority src={Page23} alt="Page #24" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page24} alt="Page #25" />
+            <Image priority src={Page24} alt="Page #25" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page25} alt="Page #26" />
+            <Image priority src={Page25} alt="Page #26" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page26} alt="Page #27" />
+            <Image priority src={Page26} alt="Page #27" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page27} alt="Page #28" />
+            <Image priority src={Page27} alt="Page #28" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page28} alt="Page #29" />
+            <Image priority src={Page28} alt="Page #29" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page29} alt="Page #30" />
+            <Image priority src={Page29} alt="Page #30" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page30} alt="Page #31" />
+            <Image priority src={Page30} alt="Page #31" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page31} alt="Page #32" />
+            <Image priority src={Page31} alt="Page #32" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page32} alt="Page #33" />
+            <Image priority src={Page32} alt="Page #33" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page33} alt="Page #34" />
+            <Image priority src={Page33} alt="Page #34" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page34} alt="Page #35" />
+            <Image priority src={Page34} alt="Page #35" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page35} alt="Page #36" />
+            <Image priority src={Page35} alt="Page #36" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page36} alt="Page #37" />
+            <Image priority src={Page36} alt="Page #37" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page37} alt="Page #38" />
+            <Image priority src={Page37} alt="Page #38" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page38} alt="Page #39" />
+            <Image priority src={Page38} alt="Page #39" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page39} alt="Page #40" />
+            <Image priority src={Page39} alt="Page #40" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page40} alt="Page #41" />
+            <Image priority src={Page40} alt="Page #41" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page41} alt="Page #42" />
+            <Image priority src={Page41} alt="Page #42" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page42} alt="Page #43" />
+            <Image priority src={Page42} alt="Page #43" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page43} alt="Page #44" />
+            <Image priority src={Page43} alt="Page #44" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page44} alt="Page #45" />
+            <Image priority src={Page44} alt="Page #45" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page45} alt="Page #46" />
+            <Image priority src={Page45} alt="Page #46" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page46} alt="Page #47" />
+            <Image priority src={Page46} alt="Page #47" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page47} alt="Page #48" />
+            <Image priority src={Page47} alt="Page #48" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page48} alt="Page #49" />
+            <Image priority src={Page48} alt="Page #49" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page49} alt="Page #50" />
+            <Image priority src={Page49} alt="Page #50" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page50} alt="Page #51" />
+            <Image priority src={Page50} alt="Page #51" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page51} alt="Page #52" />
+            <Image priority src={Page51} alt="Page #52" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page52} alt="Page #53" />
+            <Image priority src={Page52} alt="Page #53" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page53} alt="Page #54" />
+            <Image priority src={Page53} alt="Page #54" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page54} alt="Page #55" />
+            <Image priority src={Page54} alt="Page #55" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page55} alt="Page #56" />
+            <Image priority src={Page55} alt="Page #56" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page56} alt="Page #57" />
+            <Image priority src={Page56} alt="Page #57" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page57} alt="Page #58" />
+            <Image priority src={Page57} alt="Page #58" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page58} alt="Page #59" />
+            <Image priority src={Page58} alt="Page #59" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page59} alt="Page #60" />
+            <Image priority src={Page59} alt="Page #60" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page60} alt="Page #61" />
+            <Image priority src={Page60} alt="Page #61" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page61} alt="Page #62" />
+            <Image priority src={Page61} alt="Page #62" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page62} alt="Page #63" />
+            <Image priority src={Page62} alt="Page #63" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page63} alt="Page #64" />
+            <Image priority src={Page63} alt="Page #64" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page64} alt="Page #65" />
+            <Image priority src={Page64} alt="Page #65" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page65} alt="Page #66" />
+            <Image priority src={Page65} alt="Page #66" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page66} alt="Page #67" />
+            <Image priority src={Page66} alt="Page #67" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page67} alt="Page #68" />
+            <Image priority src={Page67} alt="Page #68" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page68} alt="Page #69" />
+            <Image priority src={Page68} alt="Page #69" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page69} alt="Page #70" />
+            <Image priority src={Page69} alt="Page #70" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page70} alt="Page #71" />
+            <Image priority src={Page70} alt="Page #71" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page71} alt="Page #72" />
+            <Image priority src={Page71} alt="Page #72" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page72} alt="Page #73" />
+            <Image priority src={Page72} alt="Page #73" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page73} alt="Page #74" />
+            <Image priority src={Page73} alt="Page #74" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page74} alt="Page #75" />
+            <Image priority src={Page74} alt="Page #75" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page75} alt="Page #76" />
+            <Image priority src={Page75} alt="Page #76" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page76} alt="Page #77" />
+            <Image priority src={Page76} alt="Page #77" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page77} alt="Page #78" />
+            <Image priority src={Page77} alt="Page #78" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page78} alt="Page #79" />
+            <Image priority src={Page78} alt="Page #79" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page79} alt="Page #80" />
+            <Image priority src={Page79} alt="Page #80" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page80} alt="Page #81" />
+            <Image priority src={Page80} alt="Page #81" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page81} alt="Page #82" />
+            <Image priority src={Page81} alt="Page #82" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page82} alt="Page #83" />
+            <Image priority src={Page82} alt="Page #83" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page83} alt="Page #84" />
+            <Image priority src={Page83} alt="Page #84" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page84} alt="Page #85" />
+            <Image priority src={Page84} alt="Page #85" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page85} alt="Page #86" />
+            <Image priority src={Page85} alt="Page #86" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page86} alt="Page #87" />
+            <Image priority src={Page86} alt="Page #87" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page87} alt="Page #88" />
+            <Image priority src={Page87} alt="Page #88" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page88} alt="Page #89" />
+            <Image priority src={Page88} alt="Page #89" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page89} alt="Page #90" />
+            <Image priority src={Page89} alt="Page #90" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page90} alt="Page #91" />
+            <Image priority src={Page90} alt="Page #91" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page91} alt="Page #92" />
+            <Image priority src={Page91} alt="Page #92" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page92} alt="Page #93" />
+            <Image priority src={Page92} alt="Page #93" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page93} alt="Page #94" />
+            <Image priority src={Page93} alt="Page #94" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page94} alt="Page #95" />
+            <Image priority src={Page94} alt="Page #95" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page95} alt="Page #96" />
+            <Image priority src={Page95} alt="Page #96" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page96} alt="Page #97" />
+            <Image priority src={Page96} alt="Page #97" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page97} alt="Page #98" />
+            <Image priority src={Page97} alt="Page #98" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page98} alt="Page #99" />
+            <Image priority src={Page98} alt="Page #99" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page99} alt="Page #100" />
+            <Image priority src={Page99} alt="Page #100" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page100} alt="Page #101" />
+            <Image priority src={Page100} alt="Page #101" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page101} alt="Page #102" />
+            <Image priority src={Page101} alt="Page #102" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page102} alt="Page #103" />
+            <Image priority src={Page102} alt="Page #103" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page103} alt="Page #104" />
+            <Image priority src={Page103} alt="Page #104" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page104} alt="Page #105" />
+            <Image priority src={Page104} alt="Page #105" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page105} alt="Page #106" />
+            <Image priority src={Page105} alt="Page #106" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page106} alt="Page #107" />
+            <Image priority src={Page106} alt="Page #107" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page107} alt="Page #108" />
+            <Image priority src={Page107} alt="Page #108" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page108} alt="Page #109" />
+            <Image priority src={Page108} alt="Page #109" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page109} alt="Page #110" />
+            <Image priority src={Page109} alt="Page #110" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page110} alt="Page #111" />
+            <Image priority src={Page110} alt="Page #111" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page111} alt="Page #112" />
+            <Image priority src={Page111} alt="Page #112" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page112} alt="Page #113" />
+            <Image priority src={Page112} alt="Page #113" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page113} alt="Page #114" />
+            <Image priority src={Page113} alt="Page #114" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page114} alt="Page #115" />
+            <Image priority src={Page114} alt="Page #115" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page115} alt="Page #116" />
+            <Image priority src={Page115} alt="Page #116" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page116} alt="Page #117" />
+            <Image priority src={Page116} alt="Page #117" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page117} alt="Page #118" />
+            <Image priority src={Page117} alt="Page #118" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page118} alt="Page #119" />
+            <Image priority src={Page118} alt="Page #119" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page119} alt="Page #120" />
+            <Image priority src={Page119} alt="Page #120" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page120} alt="Page #121" />
+            <Image priority src={Page120} alt="Page #121" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page121} alt="Page #122" />
+            <Image priority src={Page121} alt="Page #122" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page122} alt="Page #123" />
+            <Image priority src={Page122} alt="Page #123" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page123} alt="Page #124" />
+            <Image priority src={Page123} alt="Page #124" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page124} alt="Page #125" />
+            <Image priority src={Page124} alt="Page #125" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page125} alt="Page #126" />
+            <Image priority src={Page125} alt="Page #126" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page126} alt="Page #127" />
+            <Image priority src={Page126} alt="Page #127" />
           </div>
           <div className="book-page">
-            <Image priority quality={60} src={Page127} alt="Page #128" />
+            <Image priority src={Page127} alt="Page #128" />
           </div>
         </HTMLFlipBook>
         <div className="w-100 flex items-center justify-center gap-1 pt-2">
